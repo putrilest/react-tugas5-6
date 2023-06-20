@@ -1,0 +1,48 @@
+.form {
+    display: inline-flex;
+}
+
+.form-tambah, .form-by-id{
+    height: 400px;
+    width: 300px;
+    background-color: skyblue;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+input{
+    height: 25px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.form-hapus {
+    height: 250px;
+    width: 200px;
+    background-color: skyblue;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.form-hapus > button {
+    margin-bottom: 20px;
+}
+
+.form-by-id > button {
+    margin-bottom: 20px;
+}
